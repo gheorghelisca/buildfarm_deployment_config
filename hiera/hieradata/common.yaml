@@ -17,10 +17,10 @@ timezone: 'Europe/Berlin'
 # SSH keys to be added to the system.
 # The example public key should be changed but the private key has been deliberately deleted rather than leaked.
 ssh_keys:
-    'ssh key comment / title':
-        key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCXukygCeYbRCHP7IRxCIJpVTKYVtqIXRubANWVjGAQYEM+4FHca0ZCx/k+xOERj49ZIySXMOKdFlWELezYCnpJl6Q1qE2zPR4eSU/nEo9BwaCqbIrKoToND0L65goi4Ya/mKn3NBNkYJbAl+hHW0QQKhgyme5b1JgWZjkKX7b5eqzlkn0ic7hNUmRuj3gjJAvfvvMaVE0VIxnXSuw+SoxE8Q33qno4vtkxo8/6i1MpQgxB26e7UdeVY8xuUukByD0+pUARBMFlpOCu8ycMYcoMdJKiqVSRvn3/kg5lj39qro8kMwqR/m2nrTtZMiEfCNYSEuYNLjLUvRQbBGg8dxgp
+    'gheorghes public ssh key':
+        key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCqswn0BQpOOE6ShMHubIq2ToMr9XctfydqQnjdzR10YdLt4gWNrcovlVEFuEz6888VRpsetHEl9iiGbp2oxIXoCpCjBDhN7r+7GVtL9UT/vQQABlIO4X/QAICnfOnSnAzbA5vt+ybduolNkBBCHCpx5x9TF72s406cWadPa9Aw1Jv8ylxim2s33nle+y4gEHB0lccsw7/BLDIGwTMzAuctJE6ryExTh70iwn89hFEhoRAQMmVjE2yPqK6kuZ17/a3ATQBZlCjlxz9c1JklrgMxC/xgpqlgRj7QjT+DFCdQkVl90A5tAudYIWyFJRN3LGoTWy6BbZJvrvm+WBnFmVNh
         type: ssh-rsa
-        user: root
+        user: osboxes
 
 
 # Known hosts to add to the jenkins-agent user.

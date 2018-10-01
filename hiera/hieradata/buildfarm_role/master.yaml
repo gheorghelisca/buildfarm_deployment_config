@@ -1,7 +1,7 @@
 user::admin::name: admin
 user::admin::password_hash: '#jbcrypt:$2a$10$vmmqzRmcDHj1t9Ajgq5edekPD8cbpD./pBSGcYzia.OsIroOKjghm'
 
-credentials::jenkins-slave::username: jenkins-agent
+credentials::jenkins-slave::username: osboxes
 credentials::jenkins-slave::id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 credentials::jenkins-slave::passphrase: 4lRsx/NwfEndwUlcWOOnYg==
 
@@ -29,33 +29,34 @@ jenkins::slave::labels: agent_on_master
 jenkins::slave::slave_mode: exclusive
 jenkins::slave::slave_name: agent_on_master
 
+# the private ssh key of the repo machine!
 jenkins::private_ssh_key: |
     -----BEGIN RSA PRIVATE KEY-----
-    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
+    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
     -----END RSA PRIVATE KEY-----
 
 # Optional customization urls for uploading docs.
@@ -70,8 +71,8 @@ jenkins::private_ssh_key: |
 #
 # A GitHub username and token are required.
 # TODO (Steven!) what permissions on the token?
-jenkins::github::username: ros-pull-request-builder
-jenkins::github::token: somegithubtoken
+jenkins::github::username: gheorghelisca
+jenkins::github::token: 006da181ff23234947ff4a08fd73e44c20953e2a
 #
 # default value of https://api.github.com can be overridden for GitHub Enterprise.
 # jenkins::github::api_url: 'https://api.github.com'

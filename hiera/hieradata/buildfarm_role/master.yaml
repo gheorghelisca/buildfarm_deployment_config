@@ -32,31 +32,31 @@ jenkins::slave::slave_name: agent_on_master
 # the private ssh key of the repo machine!
 jenkins::private_ssh_key: |
     -----BEGIN RSA PRIVATE KEY-----
-    MIIEogIBAAKCAQEAqscCILZSpB7bMSr6dL526y2PirOD24jWT1VzwdtMjX5mcP6i
-    v3cvgdglwsFqG0v5vOutQrM7X4HQt+/WAuOYnUVDReYMf2O+V4mLUMPjxusflcq1
-    T/Wx60YSM1HlGiqssNg0MlNp1K4I+26I/4ybvKeG3nswJmghGB6ujAt7G6yCSnRD
-    LD4kQFMta8+y/IybQMKeridLdu+YQr8meP5eby8s6ZXDktd7GBpZOeuH9kXRNFNg
-    ZaIgo2nvbrg5YAVOfwg/XsxC5i2zKuyoidRB4ZgL/fMA+oS69Km+TcgUXr1lo1TK
-    7Ag6aUMXAk6VOpjbGIZ21OLw1cbxwcduHzODpwIDAQABAoIBAAwf9wG1kCaA3lUe
-    VQvm3fCSmodheXIjw/t7+K0B0eyV1dYd7hYj8yaH3x51tv/bJA8KuJFswkFkqRn2
-    GD66RAKegUk8LRT6UvBKHq8MSWa9GM/8xWS47/nhTreAEAEMmJgxsXsFOxVTieW4
-    Elf6drAtQMEZA/EmIXth6kidJA9x0Vj4PX80o5i86Gh/MfJx99Nwbs/FvBYMmv6U
-    I2jvTegPrqWIOUVOgMVElRDlEZ4KYYjfMn/kRzkBs4Phnv7G0eP3bSDSxDyHvrJn
-    Dr8qZ1v+v8gxpfg3aROpuLQsPq1POOAoXhfkN9uUSt/PTYjElDSKLI0Ba8UX3Nhv
-    VjPrzfkCgYEA06pHAEiPGM+7bKyTAo2iZ6RTyrd4Vpn8LgHSjNwBY6elioIUN7bI
-    Hnf19a78o4qp/R/gGRGSZUBwMKoCrk/KDEJtEjmR46meA0jgVrESU77fZEia+gHK
-    1eW+OUIN68HUjOV8u/DPpZItW3BbN+dncsEqdj4/n5XPnN/KKYbsv60CgYEAzoxI
-    aiXc/u4Py3QMhhbHvsjtr7H9ldvB5W3r/tfDcHGC/kXloqm7EdA1bRbyfsursnMm
-    yGV1npitdg6lbf3rqmXoToccfmpkfDZ1q+Y6jm/Z1+hSdh2tccp9BdlxfN7TtZ54
-    XjGBxP4HkWul71btklBL0msQpqo6BF/qhtKYayMCgYArABLAif0YK0uGPmD3SdLO
-    f2HOcwttfIbwycn+d8uIdUx6IQb+cpGhLvm22b/VcZwrIkiijyFQlJC2MjOtOeRw
-    LSZ/Z1auC41gWXPJ6NsyTDqR4vYpCCgu4CeO9k5hsNT/creubrOgjVvNkbvWVZp8
-    g6Wes/K09vhghE5LtW9vWQKBgC+EXGB3J3lKgT24C+2JLhi5Ft1VoFYqgVfryuAM
-    +TxUEOO4ZtTeIVg+wxu+rLj42B4smZ5+oOmEjFtdkTdVtDK2URRHxwlaJpXg3X9X
-    bt834jDmlJnxx+YmxE5lMNOeW6wrsdtRnl4YZttQnZMLN4pyiI727JS7Eq/Q9R5h
-    MolrAoGAYIThA4/fkcKPjdBhzpR18hG1l8IepTkIs3G64b3kfny+PupVStZS1JN9
-    ZF228AU5V5azGoI1oKrwsOxX7hYoFwgkBCFJ/XMb2JBg6q8RuDGko/nuJU5nz0As
-    y2LgIcfUiJ5Nvs1ojCqbnY0Veu+OGdaVkemOuUBnv7muz3ruHDY=
+    MIIEowIBAAKCAQEAuEfl649XxFMoRpR3uZXPYohAMzbcnL1iIpQ27GMKcXw/WY8r
+    qH2CbOkJNyvYRA7HRDJnvOil8YJgvxep/hcUVfY7jjHCJY3pvmkNkphLN1rNBnGY
+    2qaoCcjTjPI7WMpO2TlKXpcQKsK9G/r/4p4XDr33Nx6Yf+45tLQ6c9NrsrhDWMCU
+    UPrBuIKZC14zeWPJBWkouKss9jQKwpBzEOGfQK8i14qw/gpIv4CifVAqeC6Txpd8
+    q/v7h+Qw1F1jcY69RfALjfdrA/YtF67fXfMRcq3UL2IqxKrVH3GTleQ0sOlGC+Cy
+    q3c9gZyhHNQDePSu2O/791Ly0y1j2LljFMwUjQIDAQABAoIBADIkHgNCNXdNyR+r
+    NghhItSEjjNhMhXT0efmvCsFp8nJLNOJiS+HNv27Sq6gV2/tNXrw3BkilERqXTih
+    j7d7QCVDomDGWTUur/MHUpIYrh6Zrj+amSSlRAOliSpInq1CHsIsPHgQUm3QHvSG
+    DynyKgPw3Fs7D/N/NmRcxarOU/eEhViaVNKMa3mYhdOkrIkKWly+QXqzctU4WXzY
+    DX7I1f2OZTw3riRNEpQDh5AW29km+zqSeyvhqo0rWI33NlLpknzhBAqyce5v6FhU
+    Nhx2CzsaoDQWpesPDIp0UUiUtRWlV7LQkbvXKm0B+IvLAH3WIYKiCzV1pbM9Zq9f
+    ph0KlgECgYEA3G6Q/uncanrjeMRqJl09ADLDM4tDbpMGrL1cgl4y8+OQe1/1Q8DZ
+    yfjwMhKTihOudy+KksHkdjCs0hYzOz6yLPNbVbk6+nEt25ZSKu56k9Nbsmv2+ZNq
+    Z0hHn29nP5S8/QHU3C0VD/t/gSeMwJmwqwLdJf+6aBwS/jtThJifnxECgYEA1gQI
+    HL2VH66TiNhul+GYF59qmx8X1/1ChKZuBUXUKB0V4rEq7Vqo37F1g1CwR/VJCSh7
+    qUcM+ijY4acVTsH3Pwf+PnLn5r21uu8X0UDIM2m3fyeVivr4p1vNj5Ymn74w6tw3
+    pSjsIyCja1TlsTsM5YFDcr6A1mNysFA+KsrzVb0CgYEAhXneCr2JXmCzRPmKXViw
+    C2KxmJCHcHlO3WJ8leR8bfoqDsr4NOKd/hLjPy7IcB+i0UDUZDFMKdUnkL8onoNE
+    WLuzXqEe+W93GTRY5O4rA0BEkjGWB2IgWBIIbJ6EopdqKLnnLruNuXPMrWRJcoad
+    16+QQeYr9caqKY+67tuMLEECgYAL6AGDh9CKCK5QiKnubTCG7+mAY8Rx0bcnphKs
+    3GunJ6cWC4E13ztR5o+BFLYZ6r17cvMeQcOpDyixtRfsX8IfkZRFaSMZpSg9FBwh
+    GheJNLJusocRSlEXDnZrLJFNhck257V4zMQGWER/LiPxLjXTdtOHyK1mP/YbdPtg
+    ahYLiQKBgDK76tJ7ctzITylH+TEeGG6WpWV/sEKz1C+q12UGEdEDG/DpSt8VZ10v
+    EUzE/4zzE/7Iqk8B56AlVhZ/yHJOgt/iDm9jmQFn/f2p5zEAk8g7fngg9jIYZtqf
+    hpcjDT7fvdubS95Z00li/6P9CiyFv2OETp1rykoIMPLcO2HWjR/T
     -----END RSA PRIVATE KEY-----
 
 # Optional customization urls for uploading docs.

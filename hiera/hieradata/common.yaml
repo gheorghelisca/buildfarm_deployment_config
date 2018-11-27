@@ -22,6 +22,12 @@ ssh_keys:
         type: ssh-rsa
         user: osboxes
 
+    'upload_access@buildfarm':
+        ensure: present
+        key: AAAAB3NzaC1yc2EAAAADAQABAAABAQC26qiqR54Bfeo/7NNYytAODrTjL9rXBZsChTXXUVF7uYDMn0p97y3XJ9GlPUWgt1r8f0UcaTjeCheWYK2d7Oix2iYRhYNBXk55SbZVyV7MpRqP/J4+CUBiX9w9u3SS609jNVCAVsdO712JtLiq1sSX+ppkw+YZ4nDEfQd40LTCQ2n3M0vAgwhoWbaNoMXN19vcD4f1LXQVXfSUo7mYBp9+FB96d4LYphAVSoNV1ju/DV3qjGmRYAowUarONfGW2EuPnZ/+zFGa/+K7j60ZZE1TPCW5GARgKc3XKiaxtInqohAYhnukseuHw+tv8d7a72vGsUaHfU+qsvDYQBDlZQeD
+        type: ssh-rsa
+        user: jenkins-agent
+
 
 # Known hosts to add to the jenkins-agent user.
 # Necessary to avoid build failures requiring interactive approval of a new

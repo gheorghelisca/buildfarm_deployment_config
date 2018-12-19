@@ -20,7 +20,7 @@ ssh_keys:
     'gheorghes public ssh key':
         key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCqswn0BQpOOE6ShMHubIq2ToMr9XctfydqQnjdzR10YdLt4gWNrcovlVEFuEz6888VRpsetHEl9iiGbp2oxIXoCpCjBDhN7r+7GVtL9UT/vQQABlIO4X/QAICnfOnSnAzbA5vt+ybduolNkBBCHCpx5x9TF72s406cWadPa9Aw1Jv8ylxim2s33nle+y4gEHB0lccsw7/BLDIGwTMzAuctJE6ryExTh70iwn89hFEhoRAQMmVjE2yPqK6kuZ17/a3ATQBZlCjlxz9c1JklrgMxC/xgpqlgRj7QjT+DFCdQkVl90A5tAudYIWyFJRN3LGoTWy6BbZJvrvm+WBnFmVNh
         type: ssh-rsa
-        user: osboxes
+        user: root
 
     'upload_access@buildfarm':
         ensure: present
